@@ -12,74 +12,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff358cc-8720-4af8-b6f0-774a1cd0bd10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/A组/2/solve.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/A组/3/solve.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/B组/1/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/B组/10/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/B组/2/代码.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/B组/2/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/B组/3/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/B组/4/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/B组/5/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/B组/6/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/B组/7/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/B组/8/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/B组/9/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/C组/1/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/C组/10/p1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/C组/10/p2.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/C组/10/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/C组/2/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/C组/3/p1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/C组/3/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/C组/4/p1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/C组/4/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/C组/5/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/C组/6/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/C组/7/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/C组/8/p1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/C组/8/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/C组/9/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/A组/1/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/A组/10/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/A组/2/p1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/A组/2/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/A组/3/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/A组/4/p1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/A组/4/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/A组/5/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/A组/6/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/A组/7/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/A组/8/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/A组/9/p1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/A组/9/p2.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/A组/9/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/B组/1/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/B组/10/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/B组/2/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/B组/3/p1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/B组/3/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/B组/4/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/B组/5/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/B组/6/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/B组/7/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/B组/8/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/B组/9/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/C组/1/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/C组/10/p1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/C组/10/p2.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/C组/10/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/C组/2/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/C组/3/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/C组/4/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/C组/5/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/C组/6/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/C组/7/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/C组/8/p1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/C组/8/题目描述.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/JAVA/C组/9/题目描述.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Algorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/B组/2/solve.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/B组/2/代码.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +35,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="alex &lt;2426671397@qq.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="GithubProjectSettings">
@@ -109,7 +57,12 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CMakeLists.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/B组/1" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/蓝桥杯/真题/2013/省赛/C_C++/B组/1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,7 +93,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573436150815</updated>
-      <workItem from="1573436151998" duration="1570000" />
+      <workItem from="1573436151998" duration="1846000" />
+      <workItem from="1573442263716" duration="785000" />
     </task>
     <task id="LOCAL-00001" summary="2013省赛题目">
       <created>1573436663436</created>
@@ -163,7 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573436794781</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2013省赛题目">
+      <created>1573437851248</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573437851248</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1">
+      <created>1573438060804</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573438060804</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +142,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -183,6 +153,10 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2013省赛题目" />
-    <option name="LAST_COMMIT_MESSAGE" value="2013省赛题目" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
