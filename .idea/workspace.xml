@@ -12,58 +12,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff358cc-8720-4af8-b6f0-774a1cd0bd10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/Algorithm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/真题/2013/省赛/C_C++/B组/3/solve.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/Algorithm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/Algorithm.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/2013/Provincial_Competition/C_C++/A/1/solve.c.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/2013/Provincial_Competition/C_C++/A/1/solve.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/2013/Provincial_Competition/C_C++/A/2/solve.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/BlueBridgeCup/蓝桥杯/真题/2013/省赛/C_C++/A组/1/solve.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/BlueBridgeCup/蓝桥杯/真题/2013/省赛/C_C++/B组/1/solve.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/C.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/main.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../历年真题分析.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/真题/2013/省赛/C_C++/C组/1/solve.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/真题/2013/省赛/C_C++/C组/2/solve.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/真题/2013/省赛/C_C++/C组/3/solve.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Algorithm" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/Algorithm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Algorithm.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/Algorithm.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Algorithm.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/Makefile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,9 +58,13 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CMakeLists.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/真题/2013/省赛/C_C++/C组/2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/真题/2013/省赛/C_C++/C组/2" />
+      <recent name="$PROJECT_DIR$/真题/2013/省赛/C_C++/C组/3" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -152,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573436794781</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2">
+      <created>1573444777234</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573444777234</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
