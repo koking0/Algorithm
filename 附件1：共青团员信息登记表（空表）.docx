@@ -1,0 +1,173 @@
+<!--cgi exception--><!--cgierrorcode:-2--><!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=gb18030" /><script>window.gbIsNoCheck = true;</script><script>
+document.domain="mail.qq.com";
+function getTop()
+{
+var f=arguments.callee,w;
+    !(f.execption) && (f.execption = "");
+if(!f.t)
+{try{w=window;f.t=w!=parent?(parent.getTop?parent.getTop():parent.parent.getTop()):w;}catch(e){f.t=reTryGetTop();f.execption=e.message;}}
+return f.t;
+}
+function reTryGetTop()
+{
+var _oWin = window,
+_oWinParent = parent;
+try
+{
+while(_oWin != _oWinParent)
+{
+_oWin = _oWinParent;
+_oWinParent = _oWinParent.parent;
+}
+}
+catch(e)
+{
+ossLogForSetFrame.getTopException = true;
+}
+return _oWin;
+};
+try{window.top=getTop();}catch(e){eval("var top=getTop();");}
+var gsUsed="10";
+var g_uin="1103808379";
+window == getTop() && document.write('<script src="all.js"></'+'script>');
+(getTop().initPageEvent || function(){})(window);
+</script><script src="all.js" type="text/javascript"></script><title>QQ邮箱</title><style></style><script>
+var bIsDiskPanelFrame = "" == "pannel";
+( function() {
+window.fsuccesss = "";
+
+if (getTop().initPageEvent)
+{
+getTop().initPageEvent(window);
+}
+
+window.isMainFrameError = !getTop().getMainWin || 
+getTop().getMainWin() == window || ( getTop() == window && !getTop().getMainWin );
+
+if ( !isMainFrameError )
+{
+return ;
+}
+
+document.write( [
+'<link rel="stylesheet" type="text/css" href="comm2010.css" />',
+'<link rel="stylesheet" type="text/css" href="https://rl.mail.qq.com/cgi-bin/getcss?sid=aRIybKuJUphdWRhF&ft=skin" />'
+].join( "" ) );
+window.onerror = function(msg, url, line) {return true;};
+window.onload = function()
+{
+setTimeout( function() {
+document.body.backgroundColor = "#fff";
+var oMsgText = getTop().S("msg_txt",window);
+var _sMsg = getTop().trim(oMsgText.innerHTML);
+var bHasHistory = history.length > 1 && getTop() != window;
+var sCode = "";
+if (bIsDiskPanelFrame)//QQ diskpanel
+{
+sCode = ['<center><div class="bd" style="text-align:left; margin:10px;"><div class="settingtable bold bd" style="padding:5px 10px; border-width:0 0 1px;">出错了</div><div style="padding:20px 10px 10px;">系统错误,您可以<a href="javascript:location.reload()">刷新恢复服务</a></div><div style="padding:0 10px 10px; text-align:right;"><input type="button" onclick="history.back()" class="btn" style="width:80px;" value="返回上一步" /></div></div></center>'];
+}
+else if(_sMsg)
+{
+sCode = [ 
+'<center><div class="bd" style="text-align:left;margin-top:20px;width:70%;"><div class="barspace1 toolbgline toolbg b_size bold" style="padding:12px 0 12px 16px;">邮箱提示</div><div style="background:#fff;padding:20px;line-height:20px;">',
+'<div class="b_size">',
+_sMsg ? _sMsg : '可能因网络原因造成系统繁忙，服务暂时中断。', '<br><br><div class="b_size">您可以尝试 ',
+'<a href="javascript:;" onclick="location.replace(location.href.split(\x27#\x27)[0]);return false;" style="font:14px;">刷新恢复服务</a> 。</div>',
+'</div>',
+'<div style="padding-top:20px;text-align:right;">',
+bHasHistory ? '<input type=button class=btn value=" 返回上一步 " onclick="history.back();"></div>' : '<input type=button value="返回邮箱首页" class=btn onclick="getTop().goUrlTopWin(\'http://' + location.host +  '/cgi-bin/frame_html?sid=aRIybKuJUphdWRhF&from=' + '\');">',
+'</div>',
+'</div>',
+'</div></center>'
+];
+}
+
+oMsgText.innerHTML = sCode.join("");
+oMsgText.style.display = "block";
+
+}, 20);
+};
+} )();
+function SafeModeSwitchConfirm()
+{
+if(getTop().S("divSafeModeOn"))
+{
+return;
+}
+if(confirm("QQ邮箱正在进行系统维护，您必须进入只读模式才能继续使用邮箱。\n请注意：如果您目前正在写邮件或写记事，直接进入只读模式将可能导致数据丢失，请[取消]并手工保存您的数据"))
+{
+getTop().goUrlTopWin(getTop().location.href, true);
+}
+}
+</script></head><body class="tipbg" style="text-align:center;background:white;" ><div id="msg_txt" style="display:none;" code="-2"> <script>getTop().location.href="/cgi-bin/loginpage?s=session_timeout&from=&r=755bad5d41bda2cba3e8753feff52baf";</script></div></body><script language="Javascript">
+( function() {
+var _oMainWin = getTop().getMainWin(),
+_sMainWinLoc = _oMainWin.location.href,
+_msgTxtObj = getTop().S("msg_txt", window),
+_bIsShowVerifyFrame = (getTop().QMDialog && getTop().QMDialog("QMVerify"))|| typeof(bVerifycode)!="undefined";
+
+if(!_msgTxtObj || getTop().trim && getTop().trim(_msgTxtObj.innerText || _msgTxtObj.textContent) == "[发送错误报告]")
+{
+return;
+}
+_msgTxtObj.innerHTML = getTop().filteScript( _msgTxtObj.innerHTML );
+
+if (window["misslist"])
+{
+if (atype=="fw")
+{
+var infos = misslist;
+}
+else
+{
+var infos = _oMainWin.QMAttach.getInfoUid(misslist);
+}
+getTop().confirmBox( {
+msg : getTop().TE(['以下%@%if(%type%=="fw")%@%附件提取失败%@%else%@%%len%个附件上传失败%@%endif%@%，请删除后重试：<br/>',
+'%@%for(%list%)%@%',
+'<span style="color:red;" title="%name%">',
+'%@%eval subAsiiStr(%name%,%_root_.width%,"...",1)%@%',
+'</span>;&nbsp;',
+'%@%if(%_root_.len%<5)%@%<br/>%@%endif%@%',
+'%@%endfor%@%'], '%').replace( {
+type : atype,
+len : infos.length,
+width : infos.length < 5 ? 40 : 15,
+list : infos
+} ),
+title : "失败信息",
+confirmBtnTxt : "重试",
+cancelBtnTxt : "取消",
+onreturn : function(_abIsOk) {
+if (_abIsOk)
+{
+_oMainWin.fireMouseEvent(_oMainWin.SN("sendbtn")[0], "click");
+}
+else
+{
+E(infos, function(_aoInfo) {
+_oMainWin.delAttach(_aoInfo.id);
+});
+}
+}
+} );
+}
+else if( !isMainFrameError ) {
+if (!bIsDiskPanelFrame || window.name != "keepSession")
+{
+getTop().msgBox(null, fsuccesss, true, 5000, null, window);
+}
+}
+
+try {
+getTop().errorProcess(
+getTop().extend({title : "cgi exception",appname : "download",errcode: "-2",errmsg: " \x3cscript\x3egetTop().location.href=\x22/cgi-bin/loginpage?s=session_timeout\x26from=\x26r=755bad5d41bda2cba3e8753feff52baf\x22;\x3c/script\x3e" }, 
+{
+winname : window.name,
+winid : window.id
+})
+);
+}
+catch( e ){}
+} )();
+</script></html>
