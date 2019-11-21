@@ -73,7 +73,7 @@ void solve(){
 	for(int i = 0; i < vi_2.size(); i++)
 		for(int j = 0; j < vi_8.size(); j++)
 			if(vi_8[j].sub - vi_2[i].sub == 558)
-				cout << "赔了2百多的是： " << vi_2[i].num << " 赚了8百多的是： " << vi_8[j].num << endl;;
+				cout << "赔了2百多的是： " << vi_2[i].num << " 赚了8百多的是： " << vi_8[j].num << endl;
 }
 
 int main(){

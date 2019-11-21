@@ -41,7 +41,7 @@ void solve(){
         }
     }
 
-    printf("%d-%02d-%02d", year, month, day);
+    printf("%d-%02d-%02d \n", year, month, day);
 }
 
 int main(){
