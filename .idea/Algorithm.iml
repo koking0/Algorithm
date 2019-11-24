@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< Updated upstream
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
@@ -6,3 +7,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
+=======
+<module classpath="CMake" type="CPP_MODULE" version="4" />
+>>>>>>> Stashed changes

@@ -9,6 +9,6 @@ int f(int x,int y){
 	
 }
 int main(){
-	cout<<f(0,0)<<end1;
+	cout<<f(0,0)<<endl;
 	return 0;
 }
