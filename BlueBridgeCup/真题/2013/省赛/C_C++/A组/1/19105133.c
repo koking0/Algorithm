@@ -12,16 +12,14 @@
 
 #define MONTH 12
 
-int ifleapyear(int year);
-
-{
-if(year%4==0&&year%100==0||year%400==0)
-return 29;
-else
-return 28;
+int ifleapyear(int year) {
+    if (year % 4 == 0 && year % 100 == 0 || year % 400 == 0)
+        return 29;
+    else
+        return 28;
 }
 
-int mian() {
+int main() {
     int year = 1791, n = 2770;
     int array[MONTH] = {31, 0, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
     int month = 12, day = 15;
@@ -33,13 +31,14 @@ int mian() {
         }
         if (month > 12) {
             year++;
-            array[1] = ifleapyear(year)
+            array[1] = ifleapyear(year);
             month = 1;
         }
-        n--
+        n--;
         if (n == 0)
             break;
     }
-    printf("%d-%d-%d",)
+    printf("%d-%d-%d \n", year, month, day);
+    return 0;
 }
 
