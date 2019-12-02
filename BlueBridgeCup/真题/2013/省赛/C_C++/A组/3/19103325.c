@@ -13,8 +13,6 @@ int main() {
             a[i][j] = a[i - 1][j] + a[i][j - 1];
         }
     }
-
     printf("%d\n", a[N - 1][M - 1]);
-
     return 0;
 }

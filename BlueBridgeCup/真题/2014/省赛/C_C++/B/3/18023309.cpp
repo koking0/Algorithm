@@ -14,3 +14,26 @@
 
     注意：通过浏览器提交答案。答案是个整数。不要书写任何多余的内容。
 */
+#include<stdio.h>
+
+int sum;
+
+void f(int x, int y, int c) {
+    if (x < 0 || y < 0) return ;
+
+    if (x == 0 && y == 1 && c == 1) sum += 1;
+
+    //如果遇到酒店
+    if (x > 0) f(x - 1, y, c * 2);
+
+    //如果遇到花
+    if (y > 0) f(x, y - 1, c - 1);
+
+    return ;
+}
+
+int main() {
+    f(5, 10, 2);
+    printf("%d", sum);
+    return 0;
+}
