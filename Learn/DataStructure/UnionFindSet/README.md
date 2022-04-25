@@ -1,0 +1,1 @@
+N个样本，如果findhead的调用次数>O(N)，单次findhead的时间复杂度O(1)
