@@ -40,5 +40,5 @@ def pre_order_deserialize(string):
 
 
 if __name__ == '__main__':
-    root = pre_order_deserialize("1!B!4!#!#!5!#!#!3!6!#!#!7!#!#!")
+    root = pre_order_deserialize("1!2!4!#!#!5!#!#!3!6!#!#!7!#!#!")
     print(root.pre_order_recursive())
