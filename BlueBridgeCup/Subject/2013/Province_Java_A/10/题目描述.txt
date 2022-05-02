@@ -1,0 +1,197 @@
+
+标题：大臣的旅费
+
+
+    很久以前，T王国空前繁荣。为了更好地管理国家，王国修建了大量的快速路，用于连接首都和王国内的各大城市。
+
+    为节省经费，T国的大臣们经过思考，制定了一套优秀的修建方案，使得任何一个大城市都能从首都直接或者通过其他大城市间接到达。同时，如果不重复经过大城市，从首都到达每个大城市的方案都是唯一的。
+
+    J是T国重要大臣，他巡查于各大城市之间，体察民情。所以，从一个城市马不停蹄地到另一个城市成了J最常做的事情。他有一个钱袋，用于存放往来城市间的路费。
+
+    聪明的J发现，如果不在某个城市停下来修整，在连续行进过程中，他所花的路费与他已走过的距离有关，在走第x千米到第x+1千米这一千米中（x是整数），他花费的路费是x+10这么多。也就是说走1千米花费11，走2千米要花费23。
+
+    J大臣想知道：他从某一个城市出发，中间不休息，到达另一个城市，所有可能花费的路费中最多是多少呢？
+
+输入格式：
+输入的第一行包含一个整数n，表示包括首都在内的T王国的城市数
+城市从1开始依次编号，1号城市为首都。
+接下来n-1行，描述T国的高速路（T国的高速路一定是n-1条）
+每行三个整数Pi, Qi, Di，表示城市Pi和城市Qi之间有一条高速路，长度为Di千米。
+
+输出格式:
+输出一个整数，表示大臣J最多花费的路费是多少。
+
+样例输入:
+5
+1 2 2
+1 3 1
+2 4 5
+2 5 4
+
+样例输出:
+135
+
+样例说明:
+大臣J从城市4到城市5要花费135的路费。
+
+
+根据资源限制尽可能考虑支持更大的数据规模。
+
+
+资源约定：
+峰值内存消耗（含虚拟机） < 64M
+CPU消耗  < 5000ms
+
+
+请严格按要求输出，不要画蛇添足地打印类似：“请您输入...” 的多余内容。
+
+所有代码放在同一个源文件中，调试通过后，拷贝提交该源码。
+注意：不要使用package语句。不要使用jdk1.6及以上版本的特性。
+注意：主类的名字必须是：Main，否则按无效代码处理。
+
+方法1（floyd算法）：
+import java.util.Scanner;
+
+public class Main {
+	
+	public void floyd(int[][] matrix) {
+		int len = matrix.length;
+		for(int k = 1;k < len;k++) {
+			for(int i = 1;i < len;i++) {
+				for(int j = 1;j < len;j++) {
+					if(i == j)
+						continue;
+					if(matrix[i][k] != -1 && matrix[k][j] != -1) {
+						if(matrix[i][j] == -1 || matrix[i][j] > matrix[i][k] + matrix[k][j])
+							matrix[i][j] = matrix[i][k] + matrix[k][j];
+					}
+				}
+			}
+		}
+	}
+	
+	public void printResult(int[][] matrix) {
+		floyd(matrix);
+		int max = 0;
+		int len = matrix.length;
+		for(int i = 1;i < len;i++) {
+			for(int j = 1;j < len;j++) {
+				if(max < matrix[i][j])
+					max = matrix[i][j];
+			}
+		}
+		int result = max * 10 + (1 + max) * max / 2;
+		System.out.println(result);
+	}
+	
+	public static void main(String[] args) {
+		Main test = new Main();
+		Scanner in = new Scanner(System.in);
+		int n = in.nextInt();
+		int[][] matrix = new int[n + 1][n + 1];
+		for(int i = 1;i <= n;i++) {
+			for(int j = 1;j <= n;j++)
+				matrix[i][j] = -1;  //表示不可到达
+		}
+		for(int i = 1;i < n;i++) {
+			int a = in.nextInt();
+			int b = in.nextInt();
+			int value = in.nextInt();
+			matrix[a][b] = value;
+			matrix[b][a] = value;
+		}
+		test.printResult(matrix);
+	}
+}
+
+
+方法2（spfa算法）：
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+	
+	static class point {
+		public int a;  //起点
+		public int b;  //终点
+		public int value; //距离
+		
+		point(int a, int b, int value) {
+			this.a = a;
+			this.b = b;
+			this.value = value;
+		}
+	}
+	
+	public int spfa(ArrayList<point>[] list, int a) {
+		int max = 0;
+		int len = list.length;
+		int[] result = new int[len];
+		int[] count = new int[len];
+		boolean[] used = new boolean[len];
+		for(int i = 1;i < len;i++) {
+			result[i] = -1;  //表示a城市到不能到i城市
+			used[i] = false;
+		}
+		result[a] = 0;
+		used[a] = true;
+		count[a]++;
+		ArrayList<Integer> list1 = new ArrayList<Integer>();
+		list1.add(a);
+		while(list1.size() != 0) {
+			int start = list1.get(0);
+			for(int i = 0;i < list[start].size();i++) {
+				int b = list[start].get(i).b;
+				if(result[start] != -1) {
+			    	if(result[b] == -1 || result[b] > result[start] + list[start].get(i).value) {
+			    		result[b] = result[start] + list[start].get(i).value;
+				    	if(!used[b]) {
+				    		used[b] = true;
+				    		list1.add(b);
+					    	count[b]++;
+					    	if(count[b] > len)  //检测回环负路
+					    		return 0;
+					}
+				}
+				}
+			}
+			used[start] = false;
+			list1.remove(0);
+		}
+		for(int i = 1;i < len;i++) {
+			if(max < result[i])
+				max = result[i];
+		}
+		return max;
+	}
+	
+	public void printResult(ArrayList<point>[] list) {
+		int max = 0;
+		int len = list.length;
+		for(int i = 1;i < len;i++) {
+			int tempMax = spfa(list, i);
+			if(max < tempMax)
+				max = tempMax;
+		}
+		int result = max * 10 + (1 + max) * max / 2;
+		System.out.println(result);
+		return;
+	}
+	
+	public static void main(String[] args) {
+		Main test = new Main();
+		Scanner in = new Scanner(System.in);
+		int n = in.nextInt();
+		ArrayList<point>[] list = new ArrayList[n + 1];
+		for(int i = 1;i <= n;i++)
+			list[i] = new ArrayList<point>();
+		for(int i = 1;i < n;i++) {
+			int a = in.nextInt();
+			int b = in.nextInt();
+			int value = in.nextInt();
+			list[a].add(new point(a, b, value));
+			list[b].add(new point(b, a, value));  //输入数据为无向连通图
+		}
+		test.printResult(list);
+	}
+}
